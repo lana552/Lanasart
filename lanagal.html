@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lana's Gallery</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f0e3;
+            color: #4d4d4d;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6b0f1a, #b91372);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            font-size: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            background-color: #d90429;
+            padding: 1rem 0;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffe66d;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            padding: 2rem;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            background: linear-gradient(135deg, #b91372, #6b0f1a);
+            color: white;
+            padding: 1rem;
+            font-size: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Lana's Art Gallery
+    </header>
+
+    <nav>
+        <a href="lanasarthome.html">Home</a>
+        <a href="lanaabout.html">About</a>
+        <a href="lanacont.html">Contact</a>
+    </nav>
+
+    <section class="gallery">
+        <img src="a1.png" alt="Artwork 1">
+        <img src="a2.png" alt="Artwork 2">
+        <img src="a3.png" alt="Artwork 3">
+        <img src="a4.png" alt="Artwork 4">
+        <img src="b5.png" alt="Artwork 5">
+        <img src="b6.png" alt="Artwork 6">
+        <img src="b7.png" alt="Artwork 7">
+        <img src="b8.png" alt="Artwork 8">
+        <img src="b9.png" alt="Artwork 9">
+        <img src="b10.png" alt="Artwork 10">
+        <img src="b11.png" alt="Artwork 11">
+        <img src="b12.png" alt="Artwork 12">
+        <img src="b13.png" alt="Artwork 13">
+        <img src="b14.png" alt="Artwork 14">
+        <img src="b15.png" alt="Artwork 15">
+        <img src="b16.png" alt="Artwork 16">
+        <img src="b17.png" alt="Artwork 17">
+        <img src="b18.png" alt="Artwork 18">
+        <img src="b19.png" alt="Artwork 19">
+        <img src="b20.png" alt="Artwork 20">
+    </section>
+
+    <footer>
+        &copy; 2025 Lana's Art Gallery. All Rights Reserved.
+    </footer>
+</body>
+</html>

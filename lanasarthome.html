@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lana's Art</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f0e3;
+            color: #4d4d4d;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6b0f1a, #b91372);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            font-size: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            background-color: #d90429;
+            padding: 1rem 0;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffe66d;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+            background: url('https://via.placeholder.com/1200x600') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            font-size: 2.5rem;
+            font-weight: bold;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            padding: 2rem;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            background: linear-gradient(135deg, #b91372, #6b0f1a);
+            color: white;
+            padding: 1rem;
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        a {
+            color: #6b0f1a;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #d90429;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Lana's Art Gallery
+    </header>
+
+    <nav>
+        <a href="lanasarthome.html">Home</a>
+        <a href="lanagal.html">Gallery</a>
+        <a href="lanaabout.html">About</a>
+        <a href="lanacont.html">Contact</a>
+    </nav>
+
+    <div class="hero">
+        Discover the Elegance of Handmade Art
+    </div>
+
+    <section class="gallery">
+        <img src="a1.png" alt="Artwork 1">
+        <img src="a2.png" alt="Artwork 2">
+        <img src="a3.png" alt="Artwork 3">
+        <img src="a4.png" alt="Artwork 4">
+    </section>
+
+    <footer>
+        &copy; 2025 Lana's Art Gallery. All Rights Reserved.
+    </footer>
+</body>
+</html>
+ 
